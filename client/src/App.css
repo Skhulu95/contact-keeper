@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 /* Global Styles */
 :root {
-  --primary-color: #003699;
-  --dark-color: #333333;
+  --primary-color: #aec2e6;
+  --dark-color: #383030;
   --light-color: #f4f4f4;
   --danger-color: #dc3545;
   --success-color: #28a745;
@@ -16,20 +16,21 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: '';;
   font-size: 1rem;
   line-height: 1.6;
-  background-color: #fff;
-  color: #333;
+  background-color: whitesmoke;
+  color: black;
+  text-align: justify;
 }
 
 a {
   color: var(--primary-color);
-  text-decoration: none;
+  text-decoration: inherit;
 }
 
 a:hover {
-  color: #666;
+  color: black;
 }
 
 ul {
@@ -44,8 +45,9 @@ img {
 .container {
   max-width: 1100px;
   margin: auto;
-  overflow: hidden;
+  overflow: auto;
   padding: 0 2rem;
+  font: 1.2em sans-serif;
 }
 
 /* Text Styles*/
@@ -67,7 +69,7 @@ img {
 }
 
 .text-center {
-  text-align: center;
+  text-align: center, start, initial;
 }
 
 .text-primary {
@@ -184,7 +186,7 @@ img {
 }
 
 .btn {
-  display: inline-block;
+  display: ruby-base-container;
   background: var(--light-color);
   color: #333;
   padding: 0.4rem 1.3rem;
@@ -229,6 +231,7 @@ img {
   opacity: 0.9;
   background: var(--light-color);
   color: #333;
+  stroke-dashoffset: initial;
 }
 
 .btn-primary,
@@ -260,7 +263,7 @@ img {
 .badge-danger,
 .alert-danger {
   background: var(--danger-color);
-  color: #fff;
+  color: black;
 }
 
 .btn-success,
@@ -281,7 +284,7 @@ img {
 }
 
 .btn:hover {
-  opacity: 0.8;
+  opacity: 1.8;
 }
 
 .bg-light,
@@ -295,12 +298,12 @@ img {
 
 /* Forms */
 input {
-  margin: 1.2rem 0;
+  margin: 1.98rem 1;
 }
 
 .form-text {
-  display: block;
-  margin-top: 0.3rem;
+  display: flexbox;
+  margin-top: 0.5rem;
   color: #888;
 }
 
@@ -312,22 +315,22 @@ select,
 textarea {
   display: block;
   width: 100%;
-  padding: 0.4rem;
+  padding: 0.8rem;
   font-size: 1.2rem;
-  border: 1px solid #ccc;
+  border: 3px dotted #ccc;
 }
 
 input[type='submit'],
 button {
-  font: inherit;
+  font: none;
 }
 
 .form-group {
-  margin: 1.2rem 0;
+  margin: 1.2rem 1;
 }
 
 .form-group input {
-  margin: 0.2rem 0;
+  margin: 0.2rem 1;
 }
 
 .form-container {
@@ -346,7 +349,7 @@ h3 {
 table th,
 table td {
   padding: 1rem;
-  text-align: left;
+  text-align: center;
 }
 
 table th {
@@ -358,12 +361,12 @@ table th {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.7rem 2rem;
-  z-index: 1;
+  padding: 1.9rem 10rem;
+  z-index: 2;
   width: 100%;
   border-bottom: solid 1px var(--primary-color);
   opacity: 0.9;
-  margin-bottom: 1rem;
+  margin-bottom: 1.9rem;
 }
 
 .navbar ul {
@@ -432,7 +435,7 @@ table th {
   }
 
   .navbar h1 {
-    margin-bottom: 0.6rem;
+    margin-bottom: 0.9rem;
   }
 
   .navbar ul {
