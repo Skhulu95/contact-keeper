@@ -51,8 +51,7 @@ const Login = props => {
 			<form onSubmit={onSubmit}>
 				<div className="form-group">
 					<label htmlFor="email">Email Address</label>
-				  <input
-					  	id='email'
+					<input
 						type="email"
 						name="email"
 						value={email}
@@ -62,8 +61,7 @@ const Login = props => {
 				</div>
 				<div className="form-group">
 					<label htmlFor="password">Password</label>
-				  <input
-					  	id='password'
+					<input
 						type="password"
 						name="password"
 						value={password}
