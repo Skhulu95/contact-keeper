@@ -11,7 +11,7 @@
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "keywords": [],
-  "author": "",
+  "author": "Thabiso Klip",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -24,5 +24,13 @@
   "devDependencies": {
     "concurrently": "^4.1.0",
     "nodemon": "^1.19.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Skhulu95/contact-keeper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Skhulu95/contact-keeper/issues"
+  },
+  "homepage": "https://github.com/Skhulu95/contact-keeper#readme"
 }
